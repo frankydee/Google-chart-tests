@@ -1,0 +1,47 @@
+html {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chart_title {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.chart {
+  width: 100%;
+  min-height: 500px;
+  margin: auto;
+}
+p {
+  font-family: tahoma;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+
+  /*for demo purposes only */
+  background: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+
+.column-one {
+  order: 1;
+}
+.column-two {
+  order: 2;
+}
+.column-three {
+  order: 3;
+}
+.column-four {
+  order: 4;
+}
+.column-five {
+  order: 5;
+}
